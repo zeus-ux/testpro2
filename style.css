@@ -1,0 +1,242 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow: hidden;
+}
+
+#back{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#back h1{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    font-size: 850px;
+    color: rgba(204, 201, 190, 0.952);
+    font-family:'poppins regular' ;
+    transform: translate(-50% , -50%);
+}
+
+#pic{
+    position: absolute;
+    left: 32%;
+    top: 100px;
+    /* background-color: green; */
+}
+
+#photo{
+    width: 500px;
+}
+
+nav{
+    /* background-color: #96a1949f; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 50px;
+    /* background-color: red; */
+}
+
+#firstnav{
+    height: 100%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+#firstnav h4{
+    font-size: 20px;
+    font-family: 'poppins regular';
+    font-weight: 500;
+}
+
+#firstnav img{
+    width: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#secondnav{
+    height: 100%;
+    width: 400px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+#secondnav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'product sans';
+    font-weight: bold;
+    font-size: 12px;
+    opacity: .8;
+    position: relative;
+}
+/* #home{
+    /* background-color: red; */
+    border-bottom: 2px solid rgb(30, 197, 219);
+} */
+
+#nav #icon{
+    font-size: 20px;
+}
+
+#middle{
+    width: 100%;
+    height: 81%;
+    background-color: #163b0f9f;
+}
+
+#domin{
+    width: 180px;
+    height: 250px;
+    left: 20%;
+    top: 230px;
+    position: relative;
+    position: absolute;
+    /* background-color: red; */
+}
+
+#domin h1{
+    font-size: 75px;
+    font-weight: 500;
+    top: 0%;
+    color: black;
+    line-height: 65px;
+    font-family: 'product sans';
+}
+
+#domin p{
+    font-size: 15px;
+    top: 90px;
+    left: -40px;
+    font-family: 'montserrat';
+    opacity: .7;
+    position: absolute;
+}
+
+#text{
+    width: 120px;
+    font-size: 12px;
+    border-radius: 100px;
+    position: absolute;
+    left: -40px;
+    top: 140px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 20px;
+    background-color: #ffffff;
+}
+#right{
+    width: 120px;
+    position: absolute;
+    left: -40px;
+    top: 220px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 5px;
+    /* background-color:    #ffffff; */
+}
+
+#watch{
+    position: absolute;
+    left: 73%;
+    width: 55px;
+    top: 50%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #ffffff; */
+}
+
+#play{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 192, 192);
+    border-radius: 50%;
+}
+
+#play i{
+    color:#ffffff;
+}
+
+#middle>h3{
+    font-size: 12px;
+    opacity: .6;
+    font-family: 'product sans';
+    transform-origin: 0 40%;
+    position: absolute;
+    top: 500px;
+    left: 40px;
+    transform: rotate(-90Deg);
+}
+
+#watch h5{
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: 'product sans';
+}
+
+#btmnav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: rgba(94, 80, 0, 0.452);
+}
+
+#points{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    /* background-color: red; */
+}
+
+#points a{
+    text-decoration: none;
+    color: black;
+    opacity: .8;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#points a:nth-child(1){
+    color: #f3f3f3;
+}
+
+#mark{
+    color: #ffffff;
+    font-family: 'product sans';
+    font-weight: 100;
+    font-size: 13px;
+}
